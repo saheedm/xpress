@@ -1,0 +1,47 @@
+        -:    0:Source:newmainXC164.c
+        -:    0:Graph:newmainXC164.gcno
+        -:    0:Data:newmainXC164.gcda
+        -:    0:Runs:1
+        -:    0:Programs:1
+        -:    1://switch case statements
+        -:    2://#pragma config ICS = PGD2
+        -:    3:volatile int i=0, j, k=0, expr;
+        -:    4:void  main(void) {
+        1:    5:i = 1;
+        1:    6:expr = 2;
+        1:    7:switch(expr)
+        -:    8:{
+        -:    9:case 5:
+    #####:    10:i=5;
+    #####:    11:expr++;
+    #####:    12:break;
+        -:    13:case 1:
+    #####:    14:i=1;
+    #####:    15:expr++;
+    #####:    16:break;
+        -:    17:case 4:
+    #####:    18:i=4;
+    #####:    19:expr++;
+    #####:    20:break;
+        -:    21:case 2:
+        1:    22:i=2;
+        1:    23:expr++;
+        1:    24:break;
+        -:    25:case 7:
+    #####:    26:i=7;
+    #####:    27:expr++;
+    #####:    28:break;
+        -:    29:case 3:
+    #####:    30:i=3;
+    #####:    31:expr++;
+    #####:    32:break;
+        -:    33:case 6:
+    #####:    34:i=6;
+    #####:    35:expr++;
+    #####:    36:break;
+        -:    37:default:
+        -:    38:break;
+        1:    39:}
+        -:    40:
+    #####:    41:expr = ((i*3) + (k + (j*2)));
+    #####:    42:}
